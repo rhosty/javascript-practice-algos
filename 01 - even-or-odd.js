@@ -3,7 +3,11 @@
 
 
 function evenOrOdd(number) {
-    // Write your code here
+    if (number % 2 == 0){
+        return "Even"
+    } else {
+        return "Odd"
+    }
 }
 
 // DO NOT TOUCH TESTS BELOW
