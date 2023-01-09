@@ -6,7 +6,9 @@
 // stringRepeat(4, 'Candle') --> 'CandleCandleCandleCandle'
 
 function stringRepeat(number, string) {
-    // Write your code here
+   return string.repeat([number])
+
+    
 }
 
 // DO NOT TOUCH TESTS BELOW
